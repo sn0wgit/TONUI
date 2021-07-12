@@ -1,4 +1,20 @@
 /*TONUI style.css*/
+@keyframes anim-shadow-cry {
+	0% {
+		text-shadow: 0 0 5px #00d7ff;
+	}
+	100% {
+		text-shadow: 0 0 0px #00d7ff;
+	}
+}
+@keyframes anim-shadow-tc {
+	0% {
+		text-shadow: 0 0 5px #ffbc09;
+	}
+	100% {
+		text-shadow: 0 0 0px #ffbc09;
+	}
+}
 .switch {
 	position: relative;
 	display: inline-block;
