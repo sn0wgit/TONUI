@@ -37,6 +37,8 @@ h2 {
 	margin-left: 70px;
 }
 #lobbyCrystals {
+	animation: anim-shadow-cry 1s ease-in infinite;
+	text-shadow: 0 0 5px #00d7ff;
 	margin-top: -26px;
 	margin-left: 35px;
 	color: #00d7ff;
@@ -46,6 +48,8 @@ h2 {
 	height: 37px;
 }
 #lobbyCoins {
+	animation: anim-shadow-tc 1s ease-in infinite;
+	text-shadow: 0 0 5px #ffbc09;
 	position: absolute;
 	color: #ffbc09;
 	margin-top: 10px;
