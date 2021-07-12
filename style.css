@@ -105,6 +105,10 @@ body{
 	color: #81ec67;
 }
 button{fill: #c0d8f5;border: unset;background: none;}
-.vk {
-	
+.remember {
+	font-size: small;
+	color: #fff;
+	position: absolute;
+ 	margin-top: 20px;
+	margin-left: -6.5px;
 }
