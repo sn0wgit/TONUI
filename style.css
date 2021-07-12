@@ -50,6 +50,8 @@ input:checked + .slider:before {
 }
 body{
 	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	background-color: #021927;
 }
 .up-footer {
 	top: 10%;
