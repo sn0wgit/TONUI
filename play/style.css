@@ -8,6 +8,11 @@
 		text-shadow: 0 0 0px #ffbc09;
 	}
 }
+@media screen and (width: 1024px) and (min-height: 580px), (min-width: 768px) {
+  body {
+    background-image: url(BGT1024X768.png);
+  }
+}
 body {
 	margin: 0;
 	background-image: url(BGT.png);
