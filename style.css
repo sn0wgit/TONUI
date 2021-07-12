@@ -16,7 +16,7 @@
 	width: 48px;
 	position: absolute;
 	cursor: pointer;
-	background-color: #ccc;
+	background-color: #ff303090;
 	-webkit-transition: .4s;
 	transition: .4s;
 }
