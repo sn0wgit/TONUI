@@ -11,19 +11,19 @@
 			<img src="https://tankionline.com/ru/wp-content/themes/tanki20/img/logo.png" style="margin-top: 8px; margin-left: calc(50% - (151px / 2)); position: absolute;">
 			<div class="stats" style="border-right: 1px solid #ffffff80;height: 75px;position: absolute;width: 300px;">
 				<img style="position: absolute;width: 40px;height: 40px;margin: 16px 0 0 16px;">
-				<h4 style="margin: 16px 0 0 70px;position: absolute;">your_nickname</h4>
-				<div class="progress" style="position: absolute;width: 200px;background-image: linear-gradient(to right, #ace495 0%, #ace495 50%, #ace49520 51%, #ace49520 100%);height: 3px;margin-top: 35px;margin-left: 70px;"></div>
-				<h4 style="margin-top: 40px;margin-left: 70px;">88005/553535</h4>
+				<h4 style="margin: 16px 0 0 70px;position: absolute;" id="lobbyUsername">your_nickname</h4>
+				<div class="progress" style="position: absolute;width: 200px;background-image: linear-gradient(to right, #ace495 0%, #ace495 50%, #ace49520 51%, #ace49520 100%);height: 3px;margin-top: 35px;margin-left: 70px;" id="lobbyExperienceBar"></div>
+				<h4 style="margin-top: 40px;margin-left: 70px;" id="lobbyExperience">88005/553535</h4>
 			</div>
 				<div class="money" style="position: absolute;right: 150px;width: 200px;height: 75px;">
 					<div class="tancoins" style="width: 200px;height: 37px;border-bottom: 1px solid #ffffff80;">
 						<img class="tcic">
-						<h5>100 000</h5>
+						<h5 id="lobbyCoins">100 000</h5>
 						<img class="tcadd">
 					</div>
 					<div class="crystalls" style="width: 200px;height: 37px;">
 						<img class="cryic">
-						<h5>1 000 000</h5>
+						<h5 id="lobbyCrystals">1 000 000</h5>
 						<img class="cryadd">
 					</div>
 				</div>
@@ -66,13 +66,13 @@
 		<div class="events" style="position: absolute;top: 90px;right: 10px;">
 			<div class="challenge" style="position: absolute;border: 1px solid #ffffff80;width: 150px;height: 200px;margin-left: -160px;background: #00000080;backdrop-filter: blur(20px);">
 				<h3 style="width: fit-content;color: white;margin: 1em 13px auto;">ЧЕЛЛЕНДЖИ</h3>
-				<h5 style="color: #ace495;margin-top: 0;margin-left: 39px;">11 уровень</h5>
-				<img id="chal-reward">
+				<h5 style="color: #ace495;margin-top: 0;margin-left: 39px;" id="lobbyChallengeLevel">11 уровень</h5>
+				<img id="lobbyChallengeReward">
 			</div>
 			<div class="contract" style="border: 1px solid #ffffff80;width: 150px;height: 200px;background: #00000080;backdrop-filter: blur(20px);">
 				<h3 style="width: fit-content;color: white;margin: 1em 26px auto;">КОНТРАКТ</h3>
-				<h5 style="color: #8769b1;margin-top: 0;margin-left: 39px;">Эпический</h5>
-				<img id="cont-reward">
+				<h5 style="color: #8769b1;margin-top: 0;margin-left: 39px;" id="lobbyContractRarity">Эпический</h5>
+				<img id="lobbyContractreward">
 			</div>
 			<div class="trends" style="border: 1px solid #ffffff80;margin-top: 10px;margin-left: -160px;position: fixed;height: calc(100% - (20px + 202px + 90px));width: 310px;background: #00000080;backdrop-filter: blur(20px);max-height: 458px">
 				<button class="left-promo" style="position: absolute;bottom: 0;background: unset;border: unset;color: white;">◀</button>
