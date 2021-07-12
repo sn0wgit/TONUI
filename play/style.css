@@ -32,15 +32,16 @@ h2 {
 	color: #00d7ff;
 }
 .crystalls {
-	width: 200px;height: 37px;
+	width: 200px;
+	height: 37px;
 }
 #lobbyCoins {
+	position: absolute;
 	color: #ffbc09;
-	margin-top: -36px;
+	margin-top: 10px;
 	margin-left: 33px;
 }
 .tancoins {
-	margin-top: 35px;
 	width: 200px;
 	height: 37px;
 	border-bottom: 1px solid #ffffff80;
@@ -53,9 +54,9 @@ h2 {
 }
 .tcic {
 	margin-top: -3px;
-	margin-left: -10px;
+	margin-left: -6px;
 	position: absolute;
 }
 .cryic {
-	margin: 2px 2px 0 0;
+	margin: 6px 0 0 5px;
 }
