@@ -1,4 +1,4 @@
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+login::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: lightgray;
   opacity: 1; /* Firefox */
 }
