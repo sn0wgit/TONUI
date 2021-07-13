@@ -114,3 +114,8 @@ h2 {
     background-image: url(BGT1360X668.png);
   }
 }
+@media screen and (width: 1619px) and (height: 1296px) {
+  body {
+    background-image: url(BGT1619X1296.png);
+  }
+}
