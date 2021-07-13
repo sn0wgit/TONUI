@@ -8,16 +8,6 @@
 		text-shadow: 0 0 0px #ffbc09;
 	}
 }
-@media screen and (width: 1024px) and (min-height: 580px), (max-height: 768px) {
-  body {
-    background-image: url(BGT1024X768.png);
-  }
-}
-@media screen and (width: 1360px) and (height: 668px) {
-  body {
-    background-image: url(BGT1360X668.png);
-  }
-}
 body {
 	margin: 0;
 	background-image: url(BGT.png);
@@ -83,4 +73,14 @@ h2 {
 }
 .cryic {
 	margin: 6px 0 0 5px;
+}
+@media screen and (width: 1024px) and (min-height: 580px), (max-height: 768px) {
+  body {
+    background-image: url(BGT1024X768.png);
+  }
+}
+@media screen and (width: 1360px) and (height: 668px) {
+  body {
+    background-image: url(BGT1360X668.png);
+  }
 }
