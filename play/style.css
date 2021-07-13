@@ -74,6 +74,35 @@ h2 {
 .cryic {
 	margin: 6px 0 0 5px;
 }
+.buttons {
+	margin-left: 30px;
+}
+.mpb {
+	height: 120px;
+	width: 240px;
+	background-color: #356b4980;
+	border: 1px solid #81ec67;
+	margin: 30px;
+	margin-right: 2px;
+}
+.obm {
+	position: absolute;
+	top: 106px;
+	border: 1px solid #8cb37c;
+	background: #8cb37c80;
+	height: 55px;
+	width: 55px;
+	margin-left: 3px;
+}
+.sbm {
+	position: absolute;
+	top: 171px;
+	background: #bfb47e80;
+	border: 1px solid #bfb47e;
+	height: 55px;
+	width: 55px;
+	margin-left: 3px;
+}
 @media screen and (width: 1024px) and (min-height: 580px), (max-height: 768px) {
   body {
     background-image: url(BGT1024X768.png);
