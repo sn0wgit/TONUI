@@ -13,6 +13,11 @@
     background-image: url(BGT1024X768.png);
   }
 }
+@media screen and (width: 1360px) and (height: 668px) {
+  body {
+    background-image: url(BGT1360X668.png);
+  }
+}
 body {
 	margin: 0;
 	background-image: url(BGT.png);
