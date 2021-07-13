@@ -27,6 +27,7 @@ h4 {
 }
 h2 {
 	margin: 0;
+	margin-left: 43px;
 	color: #fff;
 }
 .progress {
@@ -76,7 +77,8 @@ h2 {
 	margin: 6px 0 0 5px;
 }
 .buttons {
-	margin-left: 30px;
+	margin-top: -25px;
+	margin-left: 20px;
 }
 .mpb {
 	height: 120px;
@@ -103,6 +105,12 @@ h2 {
 	height: 55px;
 	width: 55px;
 	margin-left: 3px;
+}
+.lbi {
+	position: absolute;
+}
+.garage, .contracts, .quests, .containers, .store, .settings {
+	padding: 5px;
 }
 @media screen and (width: 1024px) and (min-height: 580px), (max-height: 768px) {
   body {
