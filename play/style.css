@@ -115,22 +115,34 @@ h2 {
 	padding: 5px;
 }
 .garage:focus{
-	outline: 1px solid white
+	box-shadow: 0 0 0px 1px white;
+	border-radius: 3px;
+	outline: none;
 }
 .contracts:focus{
-	outline: 1px solid white
+	box-shadow: 0 0 0px 1px white;
+	border-radius: 3px;
+	outline: none;
 }
 .quests:focus{
-	outline: 1px solid white
+	box-shadow: 0 0 0px 1px white;
+	border-radius: 3px;
+	outline: none;
 }
 .containers:focus{
-	outline: 1px solid white
+	box-shadow: 0 0 0px 1px white;
+	border-radius: 3px;
+	outline: none;
 }
 .store:focus{
-	outline: 1px solid white
+	box-shadow: 0 0 0px 1px white;
+	border-radius: 3px;
+	outline: none;
 }
 .settings:focus{
-	outline: 1px solid white
+	box-shadow: 0 0 0px 1px white;
+	border-radius: 3px;
+	outline: none;
 }
 @media screen and (width: 1024px) and (min-height: 580px), (max-height: 768px) {
 	body {
