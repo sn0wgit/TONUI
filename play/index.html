@@ -18,7 +18,7 @@
 			<img src="https://tankionline.com/ru/wp-content/themes/tanki20/img/logo.png" style="margin-top: 8px; margin-left: calc(50% - (151px / 2)); position: absolute;">
 			<div class="stats" style="border-right: 1px solid #ffffff80;height: 75px;position: absolute;width: 300px;">
 				<img src="https://tankionline.com/play/static/images/large/27.ebf35106.webp" style="position: absolute;width: 50px;height: 50px;margin: 12px 0 0 12px;">
-				<h4 style="margin: 16px 0 0 70px;position: absolute;" id="lobbyUsername">Yarik_506</h4>
+				<h4 style="margin: 16px 0 0 70px;position: absolute;" id="lobbyUsername" tabindex="0">Yarik_506</h4>
 				<div class="progress" style="position: absolute;width: 200px;background-image: linear-gradient(to right, #ace495 0%, #ace495 50%, #ace49520 51%, #ace49520 100%);height: 2px;margin-top: 38px;margin-left: 70px;" id="lobbyExperienceBar"></div>
 				<h4 style="margin-top: 39px;margin-left: 70px;" id="lobbyExperience">1066391/1122000</h4>
 			</div>
@@ -26,70 +26,70 @@
 					<div class="tancoins">
 						<img src="https://tankionline.com/play/static/images/lobby/premValue.cae35ae9.svg" class="tcic">
 						<h5 id="lobbyCoins">100 000</h5>
-						<img class="tcadd">
+						<img class="tcadd" tabindex="1">
 					</div>
 					<div class="crystalls">
 						<img src="https://tankionline.com/play/static/images/lobby/crystall.626b8550.svg" class="cryic">
 						<h5 id="lobbyCrystals">1 000 000</h5>
-						<img class="cryadd">
+						<img class="cryadd" tabindex="2">
 					</div>
 				</div>
 				<div class="fullscreen" style="position: absolute;border-left: 1px solid #ffffff80;width: 75px;height: 75px;right: 75px;">
 					<a>F11</a>
-					<button class="fsbtn">
+					<button class="fsbtn" tabindex="3">
 				</button></div>
 				<div class="exit" style="position: absolute;border-left: 1px solid #ffffff80;width: 75px;height: 75px;right: 0;">
-					<button class="exbtn">
+					<button class="exbtn" tabindex="4">
 				</button></div>
 			</div>
 		<div class="battles">
-			<button class="mpb">
+			<button class="mpb" tabindex="5">
 				<h1 style="margin: -15px 0 0 65px;position: absolute;color: #81ec67;">В БОЙ!</h1>
 				<h5 style="position: absolute;margin: 35px 0 0 68px;color: #81ec67;">БЫСТРЫЙ БОЙ</h5>
 			</button>
-			<button class="obm"></button>
-			<button class="sbm"></button>
+			<button class="obm" tabindex="6"></button>
+			<button class="sbm" tabindex="7"></button>
 		</div>
 		<div class="buttons">
-			<div class="garage">
+			<div class="garage" tabindex="8">
 				<img src="" class="lbi">
 				<h2>ГАРАЖ</h2>
 			</div>
-			<div class="contracts">
+			<div class="contracts" tabindex="9">
 				<img src="" class="lbi">
 				<h2>КОНТРАКТЫ</h2>
 			</div>
-			<div class="quests">
+			<div class="quests" tabindex="10">
 				<img src="" class="lbi">
 				<h2>ЗАДАНИЯ</h2>
 			</div>
-			<div class="containers">
+			<div class="containers" tabindex="11">
 				<img src="" class="lbi">
 				<h2>КОНТЕЙНЕРЫ</h2>
 			</div>
-			<div class="store">
+			<div class="store" tabindex="12">
 				<img src="" class="lbi">
 				<h2>МАГАЗИН</h2>
 			</div>
-			<div class="settings">
+			<div class="settings" tabindex="13">
 				<img src="" class="lbi">
 				<h2>НАСТРОЙКИ</h2>
 			</div>
 		</div>
 		<div class="events" style="position: absolute;top: 90px;right: 10px;">
-			<div class="challenge" style="position: absolute;border: 1px solid #ffffff80;width: 150px;height: 200px;margin-left: -160px;background: #00000080;backdrop-filter: blur(20px);">
+			<div class="challenge" style="position: absolute;border: 1px solid #ffffff80;width: 150px;height: 200px;margin-left: -160px;background: #00000080;backdrop-filter: blur(20px);" tabindex="14">
 				<h3 style="width: fit-content;color: white;margin: 1em 13px auto;">ЧЕЛЛЕНДЖИ</h3>
 				<h5 style="color: #ace495;margin-top: 0;margin-left: 39px;" id="lobbyChallengeLevel">11 уровень</h5>
 				<img id="lobbyChallengeReward" src="SilverStar.png">
 			</div>
-			<div class="contract" style="border: 1px solid #ffffff80;width: 150px;height: 200px;background: #00000080;backdrop-filter: blur(20px);">
+			<div class="contract" style="border: 1px solid #ffffff80;width: 150px;height: 200px;background: #00000080;backdrop-filter: blur(20px);" tabindex="15">
 				<h3 style="width: fit-content;color: white;margin: 1em 26px auto;">КОНТРАКТ</h3>
 				<h5 style="color: #8769b1;margin-top: 0;margin-left: 39px;" id="lobbyContractRarity">Эпический</h5>
 				<img id="lobbyContractreward">
 			</div>
-			<div class="trends" style="border: 1px solid #ffffff80;margin-top: 10px;margin-left: -160px;position: fixed;height: calc(100% - (20px + 202px + 90px));width: 310px;background: #00000080;backdrop-filter: blur(20px);max-height: 458px">
-				<button class="left-promo" style="position: absolute;bottom: 0;background: unset;border: unset;color: white;">◀</button>
-				<button class="right-promo" style="position: absolute;background: unset;border: unset;color: white;bottom: 0;right: 0;">▶</button>
+			<div class="trends" style="border: 1px solid #ffffff80;margin-top: 10px;margin-left: -160px;position: fixed;height: calc(100% - (20px + 202px + 90px));width: 310px;background: #00000080;backdrop-filter: blur(20px);max-height: 458px" tabindex="16">
+				<button class="left-promo" style="position: absolute;bottom: 0;background: unset;border: unset;color: white;" tabindex="17">◀</button>
+				<button class="right-promo" style="position: absolute;background: unset;border: unset;color: white;bottom: 0;right: 0;" tabindex="18">▶</button>
 				<div class="promo-1"></div>
 				<div class="promo-2"></div>
 				<div class="promo-3"></div>
@@ -98,10 +98,10 @@
 			</div>
 		</div>
 		<div class="footer" style="position: absolute;bottom: 0;">
-			<button class="news"></button>
-			<button class="chat"></button>
-			<button class="clan"></button>
-			<button class="ratings"></button>
+			<button class="news" tabindex="19"></button>
+			<button class="chat" tabindex="20"></button>
+			<button class="clan" tabindex="21"></button>
+			<button class="ratings" tabindex="22"></button>
 		</div>
 	</body>
 </html>
