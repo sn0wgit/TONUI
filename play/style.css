@@ -107,6 +107,8 @@ h2 {
 	margin-left: 3px;
 }
 .lbi {
+	height: 30px;
+	margin: 2px 0 0 4px;
 	position: absolute;
 }
 .garage, .contracts, .quests, .containers, .store, .settings {
