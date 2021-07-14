@@ -9,9 +9,28 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-		<style>
-			@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
-		</style>
+		<script>
+			function fullscreen() {
+				if ((document.fullScreenElement && document.fullScreenElement !== null) ||
+				(!document.mozFullScreen && !document.webkitIsFullScreen)) {
+					if (document.documentElement.requestFullScreen) {
+ 						document.documentElement.requestFullScreen();
+					} else if (document.documentElement.mozRequestFullScreen) {
+						document.documentElement.mozRequestFullScreen();
+					} else if (document.documentElement.webkitRequestFullScreen) {
+						document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
+					}
+				} else {
+					if (document.cancelFullScreen) {
+						document.cancelFullScreen();
+					} else if (document.mozCancelFullScreen) {
+						document.mozCancelFullScreen();
+					} else if (document.webkitCancelFullScreen) {
+						document.webkitCancelFullScreen();
+					}
+	`			}
+		</script>
+		<style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');</style>
 	</head>
 	<body>
 		<div class="profile">
@@ -36,7 +55,7 @@
 				</div>
 				<div class="fullscreen" style="position: absolute;border-left: 1px solid #ffffff80;width: 75px;height: 75px;right: 75px;">
 					<a>F11</a>
-					<button class="fsbtn" tabindex="3">
+					<button class="fsbtn" tabindex="3" onclick="fullscreen()">
 				</button></div>
 				<div class="exit" style="position: absolute;border-left: 1px solid #ffffff80;width: 75px;height: 75px;right: 0;">
 					<button class="exbtn" tabindex="4">
@@ -44,8 +63,8 @@
 			</div>
 		<div class="battles">
 			<button class="mpb" tabindex="5">
-				<h1 style="margin: -15px 0 0 65px;position: absolute;color: #81ec67;">В БОЙ!</h1>
-				<h5 style="position: absolute;margin: 35px 0 0 68px;color: #81ec67;">БЫСТРЫЙ БОЙ</h5>
+				<h1 style="margin: -15px 0 0 65px;position: absolute;color: #88f43c;">В БОЙ!</h1>
+				<h5 style="position: absolute;margin: 35px 0 0 68px;color: #88f43c;">БЫСТРЫЙ БОЙ</h5>
 			</button>
 			<button class="obm" tabindex="6"></button>
 			<button class="sbm" tabindex="7"></button>
