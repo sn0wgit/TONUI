@@ -9,27 +9,6 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
-		<script>
-			function fullscreen() {
-				if ((document.fullScreenElement && document.fullScreenElement !== null) ||
-				(!document.mozFullScreen && !document.webkitIsFullScreen)) {
-					if (document.documentElement.requestFullScreen) {
- 						document.documentElement.requestFullScreen();
-					} else if (document.documentElement.mozRequestFullScreen) {
-						document.documentElement.mozRequestFullScreen();
-					} else if (document.documentElement.webkitRequestFullScreen) {
-						document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
-					}
-				} else {
-					if (document.cancelFullScreen) {
-						document.cancelFullScreen();
-					} else if (document.mozCancelFullScreen) {
-						document.mozCancelFullScreen();
-					} else if (document.webkitCancelFullScreen) {
-						document.webkitCancelFullScreen();
-					}
-				}
-		</script>
 		<style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');</style>
 	</head>
 	<body>
@@ -55,7 +34,7 @@
 				</div>
 				<div class="fullscreen" style="position: absolute;border-left: 1px solid #ffffff80;width: 75px;height: 75px;right: 75px;">
 					<a>F11</a>
-					<button class="fsbtn" tabindex="3" onclick="fullscreen()">
+					<button class="fsbtn" tabindex="3">
 				</button></div>
 				<div class="exit" style="position: absolute;border-left: 1px solid #ffffff80;width: 75px;height: 75px;right: 0;">
 					<button class="exbtn" tabindex="4">
@@ -73,14 +52,17 @@
 			<div class="garage" tabindex="8">
 				<img src="tank.png" class="lbi">
 				<h2>ГАРАЖ</h2>
+				<p style="position: absolute;padding: 0.2em 0.3em 0.2em 0.3em;width: 5px;margin: 0;border: 1px solid #faed12;border-radius: 2px;color: black;background-color: #faed12;font-weight: 900;line-height: 15px;margin-top: -27px;margin-left: 275px;">!</p>
 			</div>
 			<div class="contracts" tabindex="9">
 				<img src="star.png" class="lbi">
 				<h2>КОНТРАКТЫ</h2>
+				<p style="position: absolute;padding: 0.2em 0.3em 0.2em 0.3em;width: 5px;margin: 0;border: 1px solid #faed12;border-radius: 2px;color: black;background-color: #faed12;font-weight: 900;line-height: 15px;margin-top: -27px;margin-left: 275px;">!</p>
 			</div>
 			<div class="quests" tabindex="10">
 				<img src="flag.png" class="lbi">
 				<h2>ЗАДАНИЯ</h2>
+				<p style="position: absolute;padding: 0.2em 0.3em 0.2em 0.3em;width: 5px;margin: 0;border: 1px solid #faed12;border-radius: 2px;color: black;background-color: #faed12;font-weight: 900;line-height: 15px;margin-top: -27px;margin-left: 275px;">!</p>
 			</div>
 			<div class="containers" tabindex="11">
 				<img src="container.png" class="lbi">
