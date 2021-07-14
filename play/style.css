@@ -110,20 +110,40 @@ h2 {
 	position: absolute;
 }
 .garage, .contracts, .quests, .containers, .store, .settings {
+ 	width: 300px;
+ 	margin-left: 5px;
 	padding: 5px;
 }
+.garage:focus{
+	outline: 1px solid white
+}
+.contracts:focus{
+	outline: 1px solid white
+}
+.quests:focus{
+	outline: 1px solid white
+}
+.containers:focus{
+	outline: 1px solid white
+}
+.store:focus{
+	outline: 1px solid white
+}
+.settings:focus{
+	outline: 1px solid white
+}
 @media screen and (width: 1024px) and (min-height: 580px), (max-height: 768px) {
-  body {
-    background-image: url(BGT1024X768.png);
-  }
+	body {
+		background-image: url(BGT1024X768.png);
+	}
 }
 @media screen and (width: 1360px) and (height: 668px) {
-  body {
-    background-image: url(BGT1360X668.png);
-  }
+	body {
+		background-image: url(BGT1360X668.png);
+	}
 }
 @media screen and (width: 1619px) and (height: 1296px) {
-  body {
-    background-image: url(BGT1619X1296.png);
-  }
+	body {
+		background-image: url(BGT1619X1296.png);
+	}
 }
