@@ -40,8 +40,8 @@ h2 {
 	position: absolute;
 	width: 200px;
 	background-image: linear-gradient(to right, #ace495 0%, #ace495 50%, #ace49520 51%, #ace49520 100%);
-	height: 3px;
-	margin-top: 35px;
+	height: 2px;
+	margin-top: 38px;
 	margin-left: 70px;
 }
 #lobbyCrystals {
