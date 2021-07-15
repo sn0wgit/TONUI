@@ -15,6 +15,12 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.filter{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: radial-gradient(transparent, #0000008c);
+}
 .profile {
 	border-bottom: 1px solid #ffffff80;
 	height: 75px;
@@ -112,9 +118,8 @@ a {
 	width: 22px;
 	height: 22px;
 }
-.buttons {
-	margin-top: -25px;
-	margin-left: 20px;
+.battles{
+	position: absolute;
 }
 .mpb {
 	height: 120px;
@@ -126,26 +131,31 @@ a {
 }
 .obm {
 	position: absolute;
-	top: 106px;
+	top: 30x;
 	border: 1px solid #8cb37c;
-	background: #8cb37c80;
+	background-color: #608434bf;
 	height: 55px;
 	width: 55px;
 	margin-left: 3px;
 }
 .sbm {
+	background-image: url(https://public-deploy7.test-eu.tankionline.com/resources/564/154366/105/363/27233075532167/image.webp);
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
 	position: absolute;
-	top: 171px;
-	background: #bfb47e80;
+	top: 95px;
+	background-color: #897b4bbf;
 	border: 1px solid #bfb47e;
 	height: 55px;
 	width: 55px;
 	margin-left: 3px;
 }
-.lbi {
-	height: 30px;
-	margin: 2px 0 0 4px;
+.buttons {
 	position: absolute;
+	margin-top: 165px;
+	margin-left: 20px;
 }
 .garage, .contracts, .quests, .containers, .store, .settings {
  	width: 300px;
@@ -181,6 +191,62 @@ a {
 	box-shadow: 0 0 0px 1px white;
 	border-radius: 3px;
 	outline: none;
+}
+.lbi {
+	height: 30px;
+	margin: 2px 0 0 4px;
+	position: absolute;
+}
+.events {
+	position: absolute;
+	top: 90px;
+	right: 10px;
+}
+.challenge {
+	position: absolute;
+	border: 1px solid #ffffff80;
+	width: 150px;
+	height: 200px;
+	margin-left: -160px;
+	background: #00000033;
+	backdrop-filter: blur(20px);
+}
+.contract {
+	border: 1px solid #ffffff80;
+	width: 150px;
+	height: 200px;
+	background: #00000033;
+	backdrop-filter: blur(20px);
+}
+.left-promo {
+	position: absolute;
+	bottom: 0;
+	background: unset;
+	border: unset;
+	color: white;
+}
+.right-promo {
+	position: absolute;
+	background: unset;
+	border: unset;
+	color: white;
+	bottom: 0;
+	right: 0;
+}
+.trends {
+	border: 1px solid #ffffff80;
+	margin-top: 10px;
+	margin-left: -160px;
+	position: fixed;
+	height: calc(100% - (20px + 202px + 90px));
+	width: 310px;
+	background: #00000033;
+	backdrop-filter: blur(20px);
+	max-height: 458px;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
 }
 @media screen and (width: 1024px) and (min-height: 580px), (max-height: 768px) {
 	body {
