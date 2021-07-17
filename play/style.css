@@ -9,7 +9,7 @@
 	}
 }
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: Panton Rust Bold Base;
 	margin: 0;
 	background-image: url(BGT.png);
 	background-size: cover;
@@ -32,9 +32,30 @@ h4 {
 	color: #fff;
 }
 h2 {
-	margin: 0;
-	margin-left: 45px;
+	margin: 4px 0 0 45px;
 	color: #fff;
+}
+h1 {
+	font-family: 'Panton Rust Bold Base';
+	margin: -15px 0 0 70px;
+	position: absolute;
+	color: #88f43c;
+}
+p {
+	position: absolute;
+	padding: 0.2em 0.3em 0.2em 0.3em;
+	width: 5px;
+	margin: 0;
+	border: 1px solid #faed12;
+	border-radius: 2px;
+	color: black;
+	background-color: #faed12;
+	font-weight: 900;
+	line-height: 15px;
+	margin-top: -27px;
+	margin-left: 275px;
+	font-family: 'Open Sans';
+}
 }
 .progress {
 	position: absolute;
@@ -47,7 +68,7 @@ h2 {
 #lobbyCrystals {
 	animation: anim-shadow-cry 1s ease-in infinite;
 	text-shadow: 0 0 5px #00d7ff;
-	margin-top: -26px;
+	margin-top: -24px;
 	margin-left: 35px;
 	color: #00d7ff;
 }
@@ -60,7 +81,7 @@ h2 {
 	text-shadow: 0 0 5px #ffbc09;
 	position: absolute;
 	color: #ffbc09;
-	margin-top: 10px;
+	margin-top: 12px;
 	margin-left: 33px;
 }
 .tancoins {
@@ -80,11 +101,11 @@ h2 {
 	position: absolute;
 }
 .cryic {
-	margin: 6px 0 0 5px;
+	margin: 7px 0 0 5px;
 }
 .cryadd {
 	position: absolute;
-	margin-top: -38px;
+	margin-top: -40px;
 	margin-left: 170px;
 	height: 20px;
 	width: 20px;
