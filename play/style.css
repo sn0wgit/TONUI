@@ -153,12 +153,21 @@ a {
 	position: absolute;
 }
 .mpb {
+	padding: 0;
 	height: 120px;
 	width: 240px;
-	background-color: #356b4980;
+	background-image: url(AMB.gif);
+	background-size: cover;
 	border: 1px solid #81ec67;
 	margin: 30px;
 	margin-right: 2px;
+}
+.AMBF {
+	background-color: #356b4980;
+	margin-top: -60px;
+	position: absolute;
+	height: 120px;
+	width: 240px;
 }
 .obm {
 	background-image: url(mbm.png);
