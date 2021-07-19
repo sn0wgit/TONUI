@@ -1,1 +1,85 @@
-
+<!DOCTYPE html>
+	<html lang="ru-RU" style="overflow-y: hidden;"><head style="overflow-y: unset;"><base href="https://raw.githubusercontent.com/sn0wgit/TONUI/main/play/index.html">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Танки Онлайн Новый UI - Миссии</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="shortcut icon" href="https://tankionline.com/play/static/icons-8514ebb105092137ba2211d8b1887a62/favicon-32x32.png" type="image/png">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&amp;display=swap" rel="stylesheet">
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+			@font-face {
+				font-family: "Panton Rust Bold Base";
+				src: url("../PantonRustBold-Base.ttf");
+			}
+		</style>
+	</head>
+	<body>
+		<div class="filter"></div>
+		<div class="footer">
+			<h1>МИССИИ</h1>
+			<div class="back">
+				<a style="margin-left: 5px;">Z</a>
+                <button class="bckbtn" tabindex="1"></button>
+            </div>
+            <div class="stats">
+				<img src="https://tankionline.com/play/static/images/large/27.ebf35106.webp" style="position: absolute;width: 50px;height: 50px;margin: 12px 0 0 12px;">
+				<h4 style="margin: 20px 0 0 70px;position: absolute;font-size: 12px;" id="lobbyUsername" tabindex="2">Yarik_506</h4>
+				<div class="progress" id="lobbyExperienceBar"></div>
+				<h4 style="margin: 45px 0 0 70px;font-size: 12px;" id="lobbyExperience">1066391/1122000</h4>
+			</div>
+			<div class="money">
+				<div class="tancoins">
+					<img src="https://tankionline.com/play/static/images/lobby/premValue.cae35ae9.svg" class="tcic">
+					<h5 id="lobbyCoins">487</h5>
+					<img class="tcadd" src="addtc.png" tabindex="3">
+				</div>
+				<div class="crystalls">
+					<img src="https://tankionline.com/play/static/images/lobby/crystall.626b8550.svg" class="cryic">
+					<h5 id="lobbyCrystals">26 810</h5>
+					<img class="cryadd" src="addcry.png" tabindex="4">
+				</div>
+			</div>
+			<div class="fullscreen">
+				<a>F11</a>
+				<button class="fsbtn" tabindex="5">
+			</button></div>
+			<div class="home">
+				<a style="margin-left: 54px;">P</a>
+				<button class="hmbtn" tabindex="6"></button>
+			</div>
+		</div>
+		<div class="choose">
+			<div class="variants">
+				<a style="margin-top: 11px;margin-left: -22px;">Q</a>
+				<div class="special">
+					<h2>ОСОБЫЕ</h2>
+				</div>
+				<div class="everyday" style="margin-left: 75px;">
+					<h2>ЕЖЕДНЕВНЫЕ</h2>
+				</div>
+				<div class="everyweek" style="border-bottom: 1px solid #76fe33;margin-left: 195px;">
+					<h2 style="color: #76fe33;">НЕДЕЛЬНЫЕ</h2>
+				</div>
+				<div class="challenge" style="margin-left: 300px;">
+					<h2>ЧЕЛЛЕНДЖ</h2>
+				</div>
+				<a style="margin-left: 398px;margin-top: 11px;">E</a>
+				</div>
+		</div>
+    	<div class="cards">
+    		<div class="card card1" id="active"></div>
+    		<div class="card card2"></div>
+    		<div class="card card3"></div>
+		</div>
+		<div class="bottom">
+    		<div class="hint">
+				<img src="exit.png" class="hi">
+				<h4>Выполняй миссии, и получай награды!</h4>
+			</div>
+    		<div class="progresses"></div>
+		</div>
+	</body>
+</html>
