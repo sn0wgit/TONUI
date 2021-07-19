@@ -66,7 +66,7 @@
 		}
 		.bckbtn {
 			margin: 27px 0 0 27px;
-    		background: url(back.png);
+    		background: url(../back.png);
     		background-size: cover;
     		border: unset;
     		height: 22px;
@@ -150,7 +150,7 @@
 			margin: 27px;
 			background-color: unset;
 			border: unset;
-			background-image: url(fsb.png);
+			background-image: url(../fsb.png);
 			background-size: cover;
 			width: 22px;
 			height: 22px;
@@ -164,7 +164,7 @@
 		}
 		.hmbtn {
 			margin: 27px 0 0 27px;
-			background: url(home.png);
+			background: url(../home.png);
 			background-size: cover;
 			border: unset;
 			height: 22px;
