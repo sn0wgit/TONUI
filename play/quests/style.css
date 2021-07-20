@@ -66,6 +66,7 @@
 			left: 0;
 		}
 		.bckbtn {
+			cursor: pointer;
 			margin: 27px 0 0 27px;
     			background: url(../back.png);
     			background-size: cover;
@@ -150,6 +151,7 @@
 			right: 75px;
 		}
 		.fsbtn {
+			cursor: pointer;
 			margin: 27px;
 			background-color: unset;
 			border: unset;
@@ -166,6 +168,7 @@
 			right: 0;
 		}
 		.hmbtn {
+			cursor: pointer;
 			margin: 27px 0 0 27px;
 			background: url(../home.png);
 			background-size: cover;
@@ -217,6 +220,7 @@
 			bottom: 0;
 		}
 		.hi {
+			background-image: url(../hint.png);
 			margin-left: 30px;
 			position: absolute;
 			width: 20px;
