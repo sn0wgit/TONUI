@@ -192,7 +192,7 @@
 		.card {
 			border-radius: 4px;
     		position: absolute;
-    		border: 1px solid #ffffff;
+    		border: 1px solid #ffffff54;
     		height: calc(100% - 207px);
     		width: calc((100% / 3) - 40px);
 		}
