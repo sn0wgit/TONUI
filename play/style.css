@@ -134,6 +134,7 @@ a {
 	border-radius: 3px;
 }
 .fsbtn {
+	cursor: pointer;
 	margin: 27px;
 	background-color: unset;
 	border: unset;
@@ -143,6 +144,7 @@ a {
 	height: 22px;
 }
 .exbtn {
+	cursor: pointer;
 	margin: 27px 0 0 27px;
 	background: url(exit.png);
 	background-size: cover;
