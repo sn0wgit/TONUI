@@ -13,21 +13,254 @@ body {
 	user-select: none;
 	font-family: Panton Rust Bold Base;
 	margin: 0;
-    background-color: #021927;
+    	background-color: #021927;
 }
-.lbg{
-    background-image: url(BGT.png);
+.reglogbody {
+	font-family: 'Open Sans', sans-serif !important;
+}
+.regSwitch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+}
+.regSwitch input { 
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+.regSlider {
+	margin-top: -5.5px;
+	margin-left: -1px;
+	height: 25px;
+	width: 48px;
+	position: absolute;
+	cursor: pointer;
+	background-color: #ff303090;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+.regSlider:before {
+	position: absolute;
+	content: "";
+	height: 21px;
+	width: 21px;
+	left: 2px;
+	bottom: 2px;
+	background-color: #73ff37;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+input:checked + .regSlider {
+	background-color: #356b4f;
+}
+input:focus + .regSlider {
+	box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .regSlider:before {
+	-webkit-transform: translateX(23px);
+	-ms-transform: translateX(23px);
+	transform: translateX(23px);
+}
+.regSlider.round {
+	border-radius: 34px;
+}
+.regSlider.round:before {
+	border-radius: 50%;
+}
+.regUpFooter {
+	top: 10%;
+	position: absolute;
+	margin-left: calc(50% - 75.5px);
+}
+.regFormBox {
+	position: relative;
+	margin-top: calc(25% - 160px) !important;
+	border-radius: 1px;
+	border: 1px solid #ffffff80;
+	width: 370px;
+	height: 298px;
+	margin: 0 auto;
+}
+.regMainLoginBox {
+	border-bottom: 1px solid #ffffff80;
+	padding: 30px;
+}
+regLoginText {
+	font-size: 20px;
+	font-weight: 700;
+	margin-right: 15px;
+	color: #a6eb79;
+}
+regRegText {
+	font-size: 20px;
+	font-weight: 700;
+	width: fit-content;
+	color: #b2c9df;
+	margin: 0;
+}
+.regLogin {
+	color: darkgray;
+	padding-left: 5px;
+	width: -webkit-fill-available;
+	height: 25px;
+	margin-top: 25px;
+	border-radius: 3px;
+	border: 1px solid #ffffff80;
+	background-color: unset;
+}
+.regPassword {
+	color: darkgray;
+	padding-left: 5px;
+	margin-top: 10px;
+	width: -webkit-fill-available;
+	height: 25px;
+	border-radius: 3px;
+	border: 1px solid #ffffff80;
+	background-color: unset;
+}
+regRemember {
+	font-size: small;
+	color: #fff;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: -6.5px;
+}
+.regPlay {
+	margin-top: 15px;
+	position: absolute;
+	left: calc(100% - 25px - ((100% - 372px) / 2) - 138px);
+	font-weight: 700;
+	padding: 0.6em;
+	padding-left: 3em;
+	padding-right: 3em;
+	border-radius: 4px;
+	border: unset;
+	background-color: #356b49;
+	color: #81ec67;
+}
+.regSecondBox {
+	padding: 30px;
+}
+regLoginThrow {
+	margin: auto;
+	font-size: 14px;
+	font-weight: 100;
+	color: #fff;
+}
+.regFacebook {
+	fill: #c0d8f5;
+	border: unset;
+	background: none;
+	left: calc(100% - 25px - ((100% - 372px) / 2) - 75px);
+	padding: 0;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+}
+.regTwitter {
+	fill: #c0d8f5;
+	border: unset;
+	background: none;
+	padding: 0;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	left: calc(100% - 25px - ((100% - 372px) / 2) - 25px);
+}
+.regDownFooter {
+	position: absolute;
+	bottom: 5px;
+	width: 100%;
+}
+regCopyright {
+	display: block;
+	margin-bottom: 5px !important;
+	margin: 0 auto;
+	color: lightgray;
+	width: fit-content;
+}
+regSubtext {
+	display: block;
+	margin-bottom: 5px;
+	margin: 0 auto;
+	width: fit-content;
+}
+regEULA,regGameRules,regCookies {
+	margin: 7px;color: #fff;
+}
+.regSocial {
+	bottom: 5px;
+	right: 55px;
+	position: absolute;
+}
+.regVK {
+	fill: #c0d8f5;
+	border: unset;
+	background: none;
+	bottom: 0;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+}
+.regYT {
+	fill: #c0d8f5;
+	border: unset;
+	background: none;
+	bottom: 45px;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+}
+.regTW {
+	fill: #c0d8f5;
+	border: unset;
+	background: none;
+	bottom: 90px;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+}
+.regIG {
+	fill: #c0d8f5;
+	border: unset;
+	background: none;
+	bottom: 135px;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+}
+.regFB {
+	fill: #c0d8f5;
+	border: unset;
+	background: none;
+	bottom: 180px;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+}
+.regTV {
+	fill: #c0d8f5;
+	border: unset;
+	background: none;
+	bottom: 225px;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+}
+.lbg {
+	background-image: url(BGT.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.lobbyFilter{
+.lobbyFilter {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	background: radial-gradient(transparent, #0000008c);
 }
 profile {
-    display: block;
+	display: block;
 	border-bottom: 1px solid #ffffff80;
 	height: 75px;
 	width: 100%;
@@ -36,51 +269,51 @@ profile {
 	background-color: #000000aa;
 }
 .stats{
-    border-right: 1px solid #ffffff80;
-    height: 75px;
-    position: absolute;
-    width: 300px;
+	border-right: 1px solid #ffffff80;
+	height: 75px;
+	position: absolute;
+	width: 300px;
 }
 #lobbyUsername {
-    font-family: Panton Rust Bold Base;
-    margin: 20px 0 0 70px;
-    position: absolute;
-    font-size: 12px;
+	font-family: Panton Rust Bold Base;
+	margin: 20px 0 0 70px;
+	position: absolute;
+	font-size: 12px;
 	color: #fff;
 }
 #lobbyExperience {
-    font-family: Panton Rust Bold Base;
-    margin: 45px 0 0 70px;
-    font-size: 12px;
-    color: #fff;
+	font-family: Panton Rust Bold Base;
+	margin: 45px 0 0 70px;
+	font-size: 12px;
+	color: #fff;
 }
 lobbybuttontext {
-    line-height: 36px;
-    user-select: none;
-    font-family: Panton Rust Bold Base;
-    cursor: pointer;
-    margin: 4px 0 0 45px;
-    color: #fff;
-    font-size: 1.5em;
+	line-height: 36px;
+	user-select: none;
+	font-family: Panton Rust Bold Base;
+	cursor: pointer;
+	margin: 4px 0 0 45px;
+	color: #fff;
+	font-size: 1.5em;
 }
 playButtonText {
-    display: block;
+	display: block;
 	font-family: 'Panton Rust Bold Base';
 	margin: -15px 0 0 73px;
 	position: absolute;
 	color: #88f43c;
-    font-size: 2em;
+	font-size: 2em;
 }
 playButtonSubtext {
-    display: block;
-    position: absolute;
-    margin: 35px 0 0 75px;
-    color: #88f43c;
-    font-family: 'Panton Rust Bold Base';
-    font-size: 0.83em;
+	display: block;
+	position: absolute;
+	margin: 35px 0 0 75px;
+	color: #88f43c;
+	font-family: 'Panton Rust Bold Base';
+	font-size: 0.83em;
 }
 smthngNEW {
-    display: block;
+	display: block;
 	position: absolute;
 	padding: 0.2em 0.3em 0.2em 0.3em;
 	width: 5px;
@@ -171,11 +404,11 @@ a {
 	border-radius: 3px;
 }
 .fullscreen{
-    position: absolute;
-    border-left: 1px solid #ffffff80;
-    width: 75px;
-    height: 75px;
-    right: 75px;
+	position: absolute;
+	border-left: 1px solid #ffffff80;
+	width: 75px;
+	height: 75px;
+	right: 75px;
 }
 .fsbtn {
 	cursor: pointer;
@@ -188,11 +421,11 @@ a {
 	height: 22px;
 }
 .exit{
-    position: absolute;
-    border-left: 1px solid #ffffff80;
-    width: 75px;
-    height: 75px;
-    right: 0;
+	position: absolute;
+	border-left: 1px solid #ffffff80;
+	width: 75px;
+	height: 75px;
+	right: 0;
 }
 .exbtn {
 	cursor: pointer;
@@ -353,15 +586,15 @@ a {
 	max-height: 458px;
 }
 .trendHeader{
-    margin: 0;
-    left: 50%;
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    position: absolute;
-    font-size: 22px;
-    bottom: 0;
-    color: #88f43c;
-    font-family: 'Panton Rust Bold Base';
+	margin: 0;
+	left: 50%;
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	position: absolute;
+	font-size: 22px;
+	bottom: 0;
+	color: #88f43c;
+	font-family: 'Panton Rust Bold Base';
 }
 .lobbyfooter {
 	left: 30px;
