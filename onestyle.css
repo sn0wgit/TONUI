@@ -74,13 +74,14 @@ input:checked + .regSlider:before {
 	margin-left: calc(50% - 75.5px);
 }
 .regFormBox {
-	position: relative;
-	margin-top: calc(25% - 160px) !important;
+	position: absolute;
+	top: 50%;
+	left: 50%;
 	border-radius: 1px;
 	border: 1px solid #ffffff80;
 	width: 370px;
 	height: 298px;
-	margin: 0 auto;
+	transform: translate(-50%, -50%);
 }
 .regMainLoginBox {
 	border-bottom: 1px solid #ffffff80;
