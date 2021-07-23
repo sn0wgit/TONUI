@@ -4,7 +4,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title>Танки Онлайн Новый UI - гараж</title>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="../onestyle.css">
 		<link rel="shortcut icon" href="https://tankionline.com/play/static/icons-8514ebb105092137ba2211d8b1887a62/favicon-32x32.png" type="image/png">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,15 +17,15 @@
 			}
 		</style>
 	</head>
-	<body>
-		<div class="filter"></div>
-		<div class="profile">
+	<body class="lbg">
+		<div class="lobbyFilter"></div>
+		<profile class="lobbyProfile">
 			<img src="https://tankionline.com/ru/wp-content/themes/tanki20/img/logo.png" style="margin-top: 8px; margin-left: calc(50% - (151px / 2)); position: absolute;">
 			<div class="stats" style="border-right: 1px solid #ffffff80;height: 75px;position: absolute;width: 300px;">
 				<img src="https://tankionline.com/play/static/images/large/27.ebf35106.webp" style="position: absolute;width: 50px;height: 50px;margin: 12px 0 0 12px;">
-				<h4 style="margin: 20px 0 0 70px;position: absolute;font-size: 12px;" id="lobbyUsername" tabindex="0">Yarik_506</h4>
+				<h4 id="lobbyUsername" tabindex="0">Yarik_506</h4>
 				<div class="progress" id="lobbyExperienceBar"></div>
-				<h4 style="margin: 45px 0 0 70px;font-size: 12px;" id="lobbyExperience">1066391/1122000</h4>
+				<h4 id="lobbyExperience">1066391/1122000</h4>
 			</div>
 				<div class="money">
 					<div class="tancoins">
@@ -46,60 +46,60 @@
 				<div class="exit" style="position: absolute;border-left: 1px solid #ffffff80;width: 75px;height: 75px;right: 0;">
 					<button class="exbtn" tabindex="4">
 				</button></div>
-			</div>
+			</profile>
 		<div class="battles">
-			<button class="mpb" tabindex="5">
-				<div class="AMBF"></div>
-				<h1 style="margin: -15px 0 0 73px;position: absolute;color: #88f43c;">В БОЙ!</h1>
-				<h5 style="position: absolute;margin: 35px 0 0 75px;color: #88f43c;font-family: 'Panton Rust Bold Base';">БЫСТРЫЙ БОЙ</h5>
+			<button class="mainPlayButton" tabindex="5">
+				<div class="animatedPlayButtonFilter"></div>
+				<playbuttontext>В БОЙ!</playbuttontext>
+				<playbuttonsubtext>БЫСТРЫЙ БОЙ</playbuttonsubtext>
 			</button>
-			<button class="obm" tabindex="6"></button>
-			<button class="sbm" tabindex="7"></button>
+			<button class="otherBattleModes" tabindex="6"></button>
+			<button class="specialBattleMode" tabindex="7"></button>
 		</div>
-		<div class="buttons">
+		<div class="lobbyButtons">
 			<div class="garage" tabindex="8">
-				<img src="tank.png" class="lbi">
-				<h2>ГАРАЖ</h2>
-				<p>!</p>
+				<img src="tank.png" class="lobbyButtonsIcon">
+				<lobbybuttontext>ГАРАЖ</lobbybuttontext>
+				<smthngnew>!</smthngnew>
 			</div>
 			<div class="contracts" tabindex="9">
-				<img src="star.png" class="lbi">
-				<h2 style="text-shadow: 0 0 10px red;color: #a4a4a4;">КОНТРАКТЫ</h2>
+				<img src="star.png" class="lobbyButtonsIcon">
+				<lobbybuttontext style="text-shadow: 0 0 10px red;color: #a4a4a4;">КОНТРАКТЫ</lobbybuttontext>
 			</div>
 			<div class="quests" tabindex="10" onclick="window.location.href='https://htmlpreview.github.io/?https://github.com/sn0wgit/TONUI/blob/main/play/quests/index.html'">
-				<img src="flag.png" class="lbi">
-				<h2>МИССИИ</h2>
-				<p>!</p>
+				<img src="flag.png" class="lobbyButtonsIcon">
+				<lobbybuttontext>МИССИИ</lobbybuttontext>
+				<smthngnew>!</smthngnew>
 			</div>
 			<div class="containers" tabindex="11">
-				<img src="container.png" class="lbi">
-				<h2>КОНТЕЙНЕРЫ</h2>
+				<img src="container.png" class="lobbyButtonsIcon">
+				<lobbybuttontext>КОНТЕЙНЕРЫ</lobbybuttontext>
 			</div>
 			<div class="store" tabindex="12">
-				<img src="cart.png" class="lbi">
-				<h2>МАГАЗИН</h2>
+				<img src="cart.png" class="lobbyButtonsIcon">
+				<lobbybuttontext>МАГАЗИН</lobbybuttontext>
 			</div>
 			<div class="settings" tabindex="13">
-				<img src="settings.png" class="lbi">
-				<h2>НАСТРОЙКИ</h2>
+				<img src="settings.png" class="lobbyButtonsIcon">
+				<lobbybuttontext>НАСТРОЙКИ</lobbybuttontext>
 			</div>
 		</div>
-		<div class="events">
-			<div class="challenge" tabindex="14">
+		<div class="lobbyEvents">
+			<div class="eventChallenge" tabindex="14">
 				<h3 style="font-size: 14px;width: fit-content;color: white;margin: 0.7em 30px auto;font-size: 14px;">ЧЕЛЛЕНДЖИ</h3>
 				<h5 style="font-size: 10px;color: #ace495;margin: 0 0 1.67em 49px;" id="lobbyChallengeLevel">2 УРОВЕНЬ</h5>
 				<img id="lobbyChallengeReward" src="https://s.eu.tankionline.com/0/0/346/260/27006221575542/image.webp" style="padding: 21px 5px 21px 05px;height: 60px;margin: -4px 0 0 20px;border: 3px solid #efd14952;border-radius: 62px;border-right-color: #efd149;border-bottom-color: #efd149;border-left-color: #efd149;">
 				<img src="https://de.tankiwiki.com/images/de/3/3c/Stars.png" style="margin: 0 0 -26px -85px;height: 12px;">
 				<h5 style="font-size: 12px;color: #f1cc1e;margin: 8px 0 1.67em 62px;" id="lobbyChallengeLevel">120/160</h5>
 			</div>
-			<div class="contract" tabindex="15">
+			<div class="eventContract" tabindex="15">
 				<h3 style="font-size: 14px;width: fit-content;color: white;margin: 0.5em 0 0 40px;">КОНТРАКТ</h3>
 				<h5 style="font-size: 10px;color: #ff5252;margin: 0 0 1.67em 42px;" id="lobbyContractRarity">НЕДОСТУПНО</h5>
 				<img id="lobbyContractreward" src="https://public-deploy7.test-eu.tankionline.com/browser-public/static/images/garage/no_batteries.193f8e5d.webp" style="margin: 22px 0 0 44px;">
 			</div>
 			<div class="trends" tabindex="16" style="background-size: cover;background-position-x: 80%;background-image: url(https://tankionline.com/ru/wp-content/uploads/2020/04/untitled-2.png);background-repeat: no-repeat;">
 				<div class="promo-1" style="backdrop-filter: blur(5px);background-position-x: 96%;background-image: url(https://tankionline.com/ru/wp-content/uploads/2020/04/untitled-2.png);width: 100%;height: 100%;background-size: 210%;background-repeat: no-repeat;background-position-y: center;">
-					<h1 style="margin: 0 0 8px 85px;position: absolute;font-size: 22px;bottom: 0;">Челлендж II</h1>
+					<h1 style="color: #88f43c;margin: 0;left: 50%;-ms-transform: translateX(-50%);transform: translateX(-50%);position: absolute;font-size: 22px;bottom: 0;">Челлендж II</h1>
 				</div>
 				<div class="promo-2"></div>
 				<div class="promo-3"></div>
@@ -107,11 +107,11 @@
 				<div class="promo-5"></div>
 			</div>
 		</div>
-		<div class="footer">
-			<button class="news" tabindex="19"></button>
-			<button class="chat" tabindex="20"></button>
-			<button class="clan" tabindex="21"></button>
-			<button class="ratings" tabindex="22"></button>
+		<div class="lobbyfooter">
+			<button class="newsBTN" tabindex="19"></button>
+			<button class="chatBTN" tabindex="20"></button>
+			<button class="clanBTN" tabindex="21"></button>
+			<button class="ratingsBTN" tabindex="22"></button>
 		</div>
 	</body>
 </html>
